@@ -1,0 +1,10 @@
+{
+	"name": "Browsify",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Control Spotify from your browser.",
+	"browser_action": {
+      "default_title": "Modify Spotify's playback.",
+      "default_popup": "popup.html"
+  }
+}
