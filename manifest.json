@@ -17,13 +17,13 @@
 	"browser_action": {
       "default_title": "Modify Spotify's playback.",
       "default_popup": "popup.html"
-  	},
-  	"web_accessible_resources": ["listener.js"],
-    "permission" : "http://youtube.com/",
-    "plugins": [
-      {
+  },
+  "web_accessible_resources": ["listener.js"],
+  "permissions" : ["tabs", "http://youtube.com/"],
+  "plugins": [
+    {
         "path" : "Browsify.plugin",
         "public" : false
-      }
-    ]
+    }
+  ]
 }
