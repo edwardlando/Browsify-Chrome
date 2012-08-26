@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Browsify.plugin";
+NSHumanReadableCopyright = "Copyright 2012 Dany Joumaa";
