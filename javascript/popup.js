@@ -56,3 +56,20 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.getElementById('shuffle').addEventListener('click', toggleShuffle);
 	document.getElementById('repeat').addEventListener('click', toggleRepeat);
 });
+
+
+
+var title = document.getElementById('eow-title').title;
+
+function passTitle(title) {
+	plugin.passTitle(title);
+}
+
+
+
+
+
+
+
+
+
